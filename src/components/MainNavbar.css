@@ -1,0 +1,50 @@
+.main-navbar {
+  background-color: #343a40;
+  border-bottom: 2px solid #00aaff;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-navbar .navbar-brand {
+  font-size: 1.5rem;
+  color: #00aaff;
+}
+
+.main-navbar .nav-link {
+  color: #ffffff;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+.main-navbar .nav-link:hover {
+  color: #00aaff;
+}
+
+.main-navbar .nav-link i {
+  font-size: 1.2rem;
+}
+
+.search-input {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.dropdown-menu {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.dropdown-item {
+  color: #ffffff;
+}
+
+.dropdown-item:hover {
+  background-color: #00aaff;
+  color: #ffffff;
+}
