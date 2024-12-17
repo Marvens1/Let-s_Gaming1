@@ -30,6 +30,13 @@ import RealFootball from "../Images/RealFootball.jpeg";
 import UltimateTransportDrivingSim from "../Images/UltimateTransportDrivingSim.jpg";
 import JailPrisonVanPoliceGame from "../Images/JailPrisonVanPoliceGame.jpg";
 import SiberianStrike from "../Images/SiberianStrike.jpeg";
+import StuntBikeRiderBros from '../Images/StuntBikeRiderBros.jpg';
+import MotorTour from "../Images/MotorTour.jpeg";
+import MotTrialXtreme from "../Images/MotTrialXtreme.jpg";
+import MotoRoadRash from "../Images/MotoRoadRash.jpg";
+import Maya from "../Images/Maya.jpeg";
+import BallBilliardsClassic from "../Images/BallBilliardsClassic.jpg";
+import RealRacing from "../Images/RealRacing.jpg"
 
 
 
@@ -208,6 +215,47 @@ export const fetchGames = async () => {
           title: "Siberian Strike",
           url:"https://html5.gamedistribution.com/9e6724b6b0b94d44b0302ae73b5216e3/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}"  ,
           thumbnail:SiberianStrike
+        },
+
+        {
+          title: "Stunt Bike Rider Bros",
+          url:"https://html5.gamedistribution.com/d8a38a68810146fb99594ae0e0b96645/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}",
+          thumbnail:StuntBikeRiderBros
+        },
+
+        {
+          title: "Motor Tour",
+          url:"https://html5.gamedistribution.com/635b4ece400845cea372258dee3882b8/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}",
+          thumbnail:MotorTour
+        },
+
+        {
+          title: "Trial Xtreme",
+          url:"https://html5.gamedistribution.com/04425491014a4c64a7578f725ba51415/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}",
+          thumbnail:MotTrialXtreme
+        },
+
+        {
+          title: "Moto Road Rash 3D 2",
+          url:"https://html5.gamedistribution.com/0d6c422de82f4f6b832697ed1da3c0b7/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}",
+          thumbnail:MotoRoadRash
+        },
+
+        {
+          title: "Maya",
+          url:"https://html5.gamedistribution.com/a372b98ae4fe4d3b8c7c7120931e9b37/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}",
+          thumbnail:Maya
+        },
+        {
+          title: "8 Ball Billiards Classic",
+          url:"https://html5.gamedistribution.com/226fcd551eac4a0889d5cd18ab627674/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}",
+          thumbnail:BallBilliardsClassic
+        },
+
+        {
+          title: "Real Racing 3D",
+          url:"https://html5.gamedistribution.com/23ef273b2cbf439897d1f1da7fe5fc80/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}",
+          thumbnail:RealRacing
         },
       ]);
     }, 500); // Simulate a 1-second delay

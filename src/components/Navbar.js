@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+// MainNavbar.js - Navigasyon prensipal
+
+import React, { useState } from "react";
 import {
   Navbar,
   NavbarBrand,
@@ -10,10 +12,10 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-} from 'reactstrap';
-import './MainNavbar.css';
+} from "reactstrap";
+import "./MainNavbar.css";
 
-const MainNavbar = () => {
+const MainNavbar = ({ toggleSidebar }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const toggleDropdown = () => setDropdownOpen(!dropdownOpen);

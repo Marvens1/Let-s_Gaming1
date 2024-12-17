@@ -9,6 +9,7 @@ import Footer from "./Footer";
 
 const App = () => {
   const [games, setGames] = useState([]);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
 
   useEffect(() => {
     const loadGames = async () => {
@@ -18,20 +19,24 @@ const App = () => {
     loadGames();
   }, []);
 
+  const toggleSidebar = () => setIsSidebarVisible(!isSidebarVisible);
+
   return (
     <div>
-      <MainNavbar />
+      <MainNavbar toggleSidebar={toggleSidebar} />
       <Container fluid>
         <Row>
           <Col md="3">
-            <Sidebar />
+            {!isSidebarVisible && (
+              <Sidebar isMobile={isSidebarVisible} toggleSidebar={toggleSidebar} />
+            )}
           </Col>
           <Col md="9">
             <Home games={games} />
           </Col>
         </Row>
       </Container>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
