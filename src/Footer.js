@@ -63,7 +63,7 @@ const Footer = () => {
 
       
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Let's Gaming. Tous droits réservés.</p>
+        <p>&copy; {new Date().getFullYear()} Francois Marvens. Tous droits réservés.</p>
       </div>
     </footer>
   );
